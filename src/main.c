@@ -21,7 +21,7 @@ static bool first_fix = false;
 
 static K_SEM_DEFINE(lte_connected, 0, 1);
 
-LOG_MODULE_REGISTER(Lesson6_Exercise1, LOG_LEVEL_INF);
+LOG_MODULE_REGISTER(GNSS, LOG_LEVEL_INF);
 
 static int modem_configure(void)
 {
